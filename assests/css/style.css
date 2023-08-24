@@ -61,4 +61,7 @@ span {
     background: #4AABE1;
     font-family: sans-serif;
     text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 7%;
 }
