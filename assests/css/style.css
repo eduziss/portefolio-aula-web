@@ -153,3 +153,56 @@ color: rgb(193, 192, 211);
 }
 
 
+#secao-orcamento{
+
+height: 100vh;
+padding: 3rem;
+
+}
+
+#form-orcamento{
+color: white;
+display: grid;
+background-color: #103352;
+max-width: 500px;
+border-radius: .5rem;
+padding: 2rem;
+margin: 2rem auto;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.linha{
+    grid-column: 1/3;    
+}
+
+input[type = "text"],
+input[type = "number"],
+select
+{
+
+    color: white;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    padding: .5rem;
+    border-radius: 1rem;
+    outline: none;
+
+}
+
+input[type = "checkbox"],
+input[type = "range"],
+input[type = "radio"]{
+    accent-color: #00a6ff;
+}
+
+input:focus{
+    border: solid 1px #00a6ff;
+}
