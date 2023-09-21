@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./assests/css/style.css">
+    <script src="./script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -96,7 +97,7 @@
    
        <div class="campo">
         <label for="qtde ">QTD de páginas</label>
-        <input id="qtde" type="number" min="1" max="5" >
+        <input id="qtde" type="number" min="1" max="500" >
        </div>
   
     
@@ -105,8 +106,8 @@
     <label for="tipo">Tipo</label>
     <select name="tipo" id="tipo">
      <option value=""> Escolha.....</option>
-     <option value="">Estático</option>
-     <option value="">Dinamico</option>
+     <option value="1">Estático</option>
+     <option value="2">Dinamico</option>
     </select>
 </div>
 
@@ -122,6 +123,7 @@
     
     <input name="laoyout" type="radio" id="layout_sim" >
     <label for="laoyut_sim">sim, preciso</label>
+
     <input name="laoyout" type="radio" id="layout_nao" >
     <label for="laoyut_nao">não,já tenho</label>
     </div>
@@ -136,8 +138,12 @@
 
  <div class="campo linha">
     <label for="prazo">Prazo:</label>
-    <input type="range"  id="prazo">
+    <input type="range"  id="prazo" min="2" max="10">
  </div>
+
+
+
+ <output> R$0,00</output>
    
 </form>
 
